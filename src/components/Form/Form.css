@@ -1,0 +1,12 @@
+form > input{
+    width: 300px;
+    outline: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+.select{
+    border-radius: 10px;
+}
+.sub-btn:hover{
+    background-color: #61dafb;
+}
