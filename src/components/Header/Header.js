@@ -37,10 +37,10 @@ const Header = () => {
                     <h5 className="offcanvas-title" id="offcanvasRightLabel">Side Bar Menu</h5>
                     <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div className="offcanvas-body bg-warning">
+                <div className="offcanvas-body ">
                     <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link  text-info fs-4" aria-current="page" to="/counter">Counter</Link>
+                            <Link className="nav-link  text-info fs-4" aria-current="page" to="/">Counter</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link text-info fs-4" to="/form">Form</Link>
